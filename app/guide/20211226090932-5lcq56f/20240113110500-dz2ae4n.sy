@@ -35,12 +35,12 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "思源筆記提供了 Android 端、iOS 端和鴻蒙端 App，已經上架部分手機應用程式商店，請在應用程式商店中搜尋 "
+					"Data": "文枢筆記提供了 Android 端、iOS 端和鴻蒙端 App，已經上架部分手機應用程式商店，請在應用程式商店中搜尋 "
 				},
 				{
 					"Type": "NodeTextMark",
 					"TextMarkType": "code",
-					"TextMarkTextContent": "思源筆記"
+					"TextMarkTextContent": "文枢筆記"
 				},
 				{
 					"Type": "NodeText",
@@ -579,7 +579,7 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "為了盡量保活後台運行，思源會定時發送通知，預設的通知內容是一些開發團隊喜歡的歌詞。"
+					"Data": "為了盡量保活後台運行，文枢會定時發送通知，預設的通知內容是一些開發團隊喜歡的歌詞。"
 				}
 			]
 		},

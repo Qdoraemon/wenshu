@@ -26,7 +26,7 @@
       &__right::after,
       &__top::after,
       &__bottom::after {
-        content: '';
+        content: "";
         position: absolute;
         background-color: var(--b3-theme-primary-lighter);
       }
@@ -120,7 +120,7 @@
       &::before {
         content: "";
         position: absolute;
-        border-left: .5px solid var(--b3-theme-background-light);
+        border-left: 0.5px solid var(--b3-theme-background-light);
         left: 17px;
       }
 
@@ -178,7 +178,7 @@
           left: 50%;
           height: max(14px, 1em);
           width: max(14px, 1em);
-          margin: min(-7px, -.5em) 0 0 min(-7px, -.5em);
+          margin: min(-7px, -0.5em) 0 0 min(-7px, -0.5em);
           border-radius: 50%;
           transition: var(--b3-transition);
         }
@@ -279,7 +279,7 @@
 
       &.search-mark--hl {
         background-color: var(--b3-theme-primary-lighter);
-        box-shadow: 0 0 0 .5px var(--b3-theme-on-background);
+        box-shadow: 0 0 0 0.5px var(--b3-theme-on-background);
       }
     }
 
@@ -299,7 +299,7 @@
     span[data-type~="block-ref"]:not(.av__celltext),
     span[data-type~="file-annotation-ref"] {
       color: var(--b3-protyle-inline-blockref-color);
-      opacity: .86;
+      opacity: 0.86;
       transition: var(--b3-transition);
     }
 
@@ -320,7 +320,7 @@
       min-height: 32px;
 
       &:hover > .protyle-icons {
-        opacity: .86;
+        opacity: 0.86;
       }
 
       &[data-type="NodeBlockQueryEmbed"] {
@@ -371,7 +371,8 @@
         position: sticky;
         top: 1px;
         z-index: 2;
-        box-shadow: 0 -1px 0 var(--b3-border-color) inset, 0 -1px 0 0 var(--b3-border-color);
+        box-shadow: 0 -1px 0 var(--b3-border-color) inset,
+          0 -1px 0 0 var(--b3-border-color);
         background-color: var(--b3-parent-background);
 
         th {
@@ -392,7 +393,7 @@
       }
 
       &--select {
-        filter: brightness(.68);
+        filter: brightness(0.68);
       }
 
       &--drag > span::after {
@@ -435,7 +436,7 @@
 
         &::after {
           left: 4px;
-          width: 8px
+          width: 8px;
         }
       }
 
@@ -556,7 +557,7 @@
   }
 
   &--animate {
-    animation: bottom2Top .3s ease-in-out;
+    animation: bottom2Top 0.3s ease-in-out;
   }
 
   div[data-type="NodeMathBlock"] {
@@ -583,7 +584,7 @@
 
   [data-node-id][fold="1"]:not(.li):not([data-type="NodeHeading"]) {
     @include text-clamp(1);
-    opacity: .38;
+    opacity: 0.38;
     font-size: 16px;
     height: 26px;
     line-height: 26px;
@@ -635,7 +636,7 @@
       height: 25px;
 
       .protyle-action__language {
-        opacity: .86;
+        opacity: 0.86;
         user-select: none;
       }
 
@@ -664,7 +665,7 @@
   }
 }
 
-// 在思源中，不论只读模式还是预览点击图片都可以进行预览
+// 在文枢中，不论只读模式还是预览点击图片都可以进行预览
 .protyle .img > span:nth-child(2) {
   cursor: pointer;
 }
@@ -681,7 +682,6 @@
     background-color: var(--b3-theme-surface-lighter);
   }
 
-
   .img:hover .protyle-action__drag,
   .iframe:hover .protyle-action__drag {
     display: inline-block;
@@ -697,13 +697,13 @@
 
       &:empty::after {
         content: "language";
-        opacity: .68;
+        opacity: 0.68;
       }
     }
   }
 
   .img:hover .protyle-icons {
-    opacity: .86;
+    opacity: 0.86;
   }
 
   .render-node .img:hover .protyle-icons,
@@ -735,7 +735,8 @@
       display: none;
     }
 
-    .av__row--util:not(.av__readonly--show) + .av__row--footer.av__readonly--show {
+    .av__row--util:not(.av__readonly--show)
+      + .av__row--footer.av__readonly--show {
       border-top-color: transparent;
     }
 

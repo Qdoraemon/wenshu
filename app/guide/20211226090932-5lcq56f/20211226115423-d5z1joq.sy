@@ -33,7 +33,7 @@
 					"Children": [
 						{
 							"Type": "NodeText",
-							"Data": "關閉思源筆記時會自動關閉用戶指南，可以點擊 "
+							"Data": "關閉文枢筆記時會自動關閉用戶指南，可以點擊 "
 						},
 						{
 							"Type": "NodeTextMark",
@@ -540,7 +540,7 @@
 													"TextMarkType": "block-ref",
 													"TextMarkBlockRefID": "20211226115356-iecet3h",
 													"TextMarkBlockRefSubtype": "s",
-													"TextMarkTextContent": "思源筆記完全開源"
+													"TextMarkTextContent": "文枢筆記完全開源"
 												}
 											]
 										}
@@ -598,7 +598,7 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "我們希望在接下來的時間裡，思源能夠成為你生活和學習的效率工具，幫助你實現更多的目標和計劃🙏"
+					"Data": "我們希望在接下來的時間裡，文枢能夠成為你生活和學習的效率工具，幫助你實現更多的目標和計劃🙏"
 				}
 			]
 		},
@@ -674,7 +674,7 @@
 									"TextMarkType": "block-ref",
 									"TextMarkBlockRefID": "20230415112040-xyakvb0",
 									"TextMarkBlockRefSubtype": "s",
-									"TextMarkTextContent": "思源"
+									"TextMarkTextContent": "文枢"
 								},
 								{
 									"Type": "NodeText",

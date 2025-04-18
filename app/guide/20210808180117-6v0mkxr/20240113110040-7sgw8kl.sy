@@ -40,7 +40,7 @@
 				{
 					"Type": "NodeTextMark",
 					"TextMarkType": "code",
-					"TextMarkTextContent": "思源笔记"
+					"TextMarkTextContent": "文枢笔记"
 				},
 				{
 					"Type": "NodeText",

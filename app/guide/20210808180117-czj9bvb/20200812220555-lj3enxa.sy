@@ -33,7 +33,7 @@
 					"Children": [
 						{
 							"Type": "NodeText",
-							"Data": "关闭思源笔记时会自动关闭用户指南，可以点击 "
+							"Data": "关闭文枢笔记时会自动关闭用户指南，可以点击 "
 						},
 						{
 							"Type": "NodeTextMark",
@@ -532,7 +532,7 @@
 													"TextMarkType": "block-ref",
 													"TextMarkBlockRefID": "20211129190023-eezo4zh",
 													"TextMarkBlockRefSubtype": "s",
-													"TextMarkTextContent": "思源笔记完全开源"
+													"TextMarkTextContent": "文枢笔记完全开源"
 												}
 											]
 										}
@@ -615,7 +615,7 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "我们希望在接下来的时间里，思源能够成为你生活和学习的效率工具，帮助你实现更多的目标和计划🙏"
+					"Data": "我们希望在接下来的时间里，文枢能够成为你生活和学习的效率工具，帮助你实现更多的目标和计划🙏"
 				}
 			]
 		},
@@ -690,7 +690,7 @@
 									"TextMarkType": "block-ref",
 									"TextMarkBlockRefID": "20230415111858-vgohvf3",
 									"TextMarkBlockRefSubtype": "s",
-									"TextMarkTextContent": "思源"
+									"TextMarkTextContent": "文枢"
 								},
 								{
 									"Type": "NodeText",

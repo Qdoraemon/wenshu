@@ -33,7 +33,7 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "我们可以通过云端收集箱对外部数据进行收集，然后在思源中通过收集箱面板从云端获取这些数据并发送到笔记本中进行进一步整理。"
+					"Data": "我们可以通过云端收集箱对外部数据进行收集，然后在文枢中通过收集箱面板从云端获取这些数据并发送到笔记本中进行进一步整理。"
 				}
 			]
 		},
@@ -299,7 +299,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "在思源中打开收集箱面板（Alt+6）"
+									"Data": "在文枢中打开收集箱面板（Alt+6）"
 								}
 							]
 						}
@@ -322,7 +322,7 @@
 				{
 					"Type": "NodeTextMark",
 					"TextMarkType": "code",
-					"TextMarkTextContent": "思源小助手"
+					"TextMarkTextContent": "文枢小助手"
 				},
 				{
 					"Type": "NodeText",
